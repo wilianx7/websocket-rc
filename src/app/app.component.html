@@ -1,0 +1,11 @@
+<div class="w-full h-screen p-6 text-white bg-gray-700">
+    <form>
+        <ngt-textarea class="block w-full" rows='14' name='transcription' label="Texto"
+            [(ngModel)]="audioTranscription" maxLength='200' [showCharactersLength]='true'
+            placeholder='Digite seu texto...'>
+        </ngt-textarea>
+
+        <ngt-button class="block w-full mt-2" type='success' [loading]='loading' (click)='sendText()'>Converter
+        </ngt-button>
+    </form>
+</div>
