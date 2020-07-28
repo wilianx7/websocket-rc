@@ -8,9 +8,7 @@ import { WebSocketService } from './services/web-socket.service';
     styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-    public files: File[] = [];
-    public acceptedFiles = "audio/*";
-    public audioTranscription: string = 'Lorem Ipsum Dolor';
+    public audioTranscription: string;
     public loading: boolean = false;
 
     constructor(private webSocketService: WebSocketService) { }
