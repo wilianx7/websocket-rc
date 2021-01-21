@@ -13,6 +13,6 @@
     "@google-cloud/speech": "^4.1.1",
     "express": "^4.17.1",
     "google-tts-api": "0.0.4",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   }
 }
